@@ -1,0 +1,253 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#home-page {
+  position: relative;
+  width: 1280px;
+  height: 3055px;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin-left: 8%;
+}
+header {
+  position: absolute;
+  width: 1280px;
+  height: 650px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid black;
+  background: url(/src/img/Rectangle1.png);
+}
+.nav-bar {
+  position: absolute;
+  width: 1200px;
+  height: 100px;
+  left: 40px;
+  top: 4px;
+  background: #ffffff;
+}
+.logo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  background: #353cf3;
+}
+.logo-texto {
+  position: absolute;
+  width: 62.38px;
+  height: 48px;
+  left: 20px;
+  top: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #ffffff;
+}
+.nav-bar-link {
+  width: 600px;
+  height: 100px;
+  margin-left: 20rem;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.nav-bar-link ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.nav-login {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  left: 1000px;
+  top: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-texto {
+  width: 65px;
+  height: 29px;
+  left: 1167px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #000000;
+}
+.contato {
+  position: absolute;
+  width: 394px;
+  height: 109.41px;
+  left: 846px;
+  top: 119px;
+  display: flex;
+  justify-content:space-around;
+}
+.contato-1{
+  width:50%;
+  height:30px;
+  font-size: 12px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content:space-around;
+  align-items:center;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+.contato-1 a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.contato-2{
+  width:50%;
+  height:30px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-size: 12px;
+  text-shadow: black 0.1em 0.1em 0.2em
+}
+.contato-2 a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.hero {
+  position: absolute;
+  width: 1200px;
+  height: 381px;
+  left: 40px;
+  top: 193px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero-col {
+  width: 350px;
+  height: 350px;
+}
+.hero-col-1 {
+  color: white;
+}
+.hero-col-1-1 {
+  padding-top: 2rem;
+  color: white;
+}
+.hero-col-2 {
+  color: white;
+}
+.hero-col-botoes {
+  margin-top: 1rem;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-hero-1 {
+  box-sizing: border-box;
+  width: 148px;
+  height: 37px;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+.btn-hero-2 {
+  box-sizing: border-box;
+  width: 148px;
+  height: 37px;
+  background: #353CF3;
+  color: #FFFFFF;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+.botao {
+  position: absolute;
+  width: 285px;
+  height: 67.02px;
+  left: 447px;
+  top: 260px;
+  background: #353cf3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.hero-col-3 {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+}
+main {
+  position: absolute;
+  width: 1202px;
+  height: 2092px;
+  left: 39px;
+  top: 680px;
+}
+.secao-1 {
+  position: absolute;
+  width: 1199px;
+  height: 636px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  justify-content:center;
+}
+.secao-1-a{
+  width: 50%;
+  height: 636px;
+}
+.secao-1-b{
+  width: 50%;
+  height: 636px;
+
+}
+.secao-2 {
+  position: absolute;
+  width: 1201px;
+  height: 511px;
+  left: 0px;
+  top: 650px;
+}
+.secao-3 {
+  position: absolute;
+  width: 1200px;
+  height: 865px;
+  left: 0px;
+  top: 1180px;
+}
+.secao-1,
+.secao-2,
+.secao-3 {
+  border: 1px solid black;
+}
+footer {
+  position: absolute;
+  width: 1280px;
+  height: 233px;
+  left: 0px;
+  top: 2822px;
+  /* border: 1px solid black; */
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+.rodape {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
